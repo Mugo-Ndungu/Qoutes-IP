@@ -1,27 +1,42 @@
-# Quotes
+# MoringaQuotesIP
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
-## Development server
+By Mugo Ndungu
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+This application enables a user to write quotes and post them, they could also upvote them or downvote them and also delete the quote.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Setup/Installation Requirements
 
-## Build
+To start using this project use the following commands:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* `git clone https://github.com/Mugo-Ndungu/Quotes-IP.git`
+* `cd Quotes`
+* `atom .`
 
-## Running unit tests
+## Behaviour Driven Development (BDD).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+| ACTION              |INPUT      | OUTPUT                           |
+| --------------------|------------------ | -------------------------------- |
+| Press button new quote| Enters new quote |  -    |
+| Press button delete|   -    | Delete selected Quote             |
+| Press button like|     -    | Likes the quote and increment the likes |
+| Press button unlike|     -    | unLikes the quote and increment the unlikes |
 
-## Running end-to-end tests
+## Link to Live Website
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+https://Mugo-Ndungu.github.io/Quotes-IP/
 
-## Further help
+### License
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+MIT License
+
+Copyright (c) 2019 Mugo Ndungu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
