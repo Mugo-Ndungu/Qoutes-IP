@@ -1,0 +1,5 @@
+<p>{{quote.desc}}</p>
+<p> Published on {{quote.completeDate|dates|timeAgo}}</p>
+<button class="btn btn-primary" type="button" (click)="like()"><i class="fas fa-thumbs-up "></i> Like {{count}} </button>
+<button class="btn btn-primary" type="button" (click)= "unlike()"><i class="fas fa-thumbs-down "></i> Unlike {{sum}} </button>
+<button type="button" (click)='quoteDelete(true)'class="btn btn-danger" name="button"><i class="fas fa-trash "></i>Delete</button>

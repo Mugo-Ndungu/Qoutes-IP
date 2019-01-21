@@ -1,0 +1,14 @@
+button{
+  width: 140px;
+  margin: 5px;
+}
+i{
+  margin: 4px;
+}
+button{
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+}
