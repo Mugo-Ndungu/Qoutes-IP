@@ -1,0 +1,21 @@
+<div class=" text-center">
+  <hr>
+  <div class="row">
+    <div class="col-sm-6 formDiv container">
+      <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+    </div>
+    <div class="col-sm-6 sewk  quoteDiv" *ngFor='let quote of quotes; let i = index'>
+      <div class="layer1"></div>
+      <div class="layer2"></div>
+      <div class="content">
+        <h2 appHighlight>{{quote.author}}</h2>
+        <app-quote-details [quote]='quote' (isDelete)='quoteDelete($event, i)'></app-quote-details>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- <div *ngIf="quote.showDesc">
+
+  </div> -->
