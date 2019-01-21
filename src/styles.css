@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body html{
+  height: 100%;
+  margin: 0 auto;
+
+}
+body{
+  background-color: #4caf00;
+  color: #262626;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 19px;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.4em;
+}
+.container a{
+  color: #262626;
+}
+section{
+  width: 80%;
+  margin: 0 auto;
+  padding: 2em;
+}
+button{
+  animation: 5s infinite linear;
+  position: relative;
+  margin: 5px 0;
+  padding: 0 10px;
+  border-radius: 10px;
+  width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+}
+@keyframes button {
+  0%{top:0em;}
+  40%{top:0em;}
+  43%{top:-0.9em;}
+  46%{top:0em;}
+  48%{top:-0.4em;}
+  50%{top:0em;}
+  100%{top:0em;}
+}
